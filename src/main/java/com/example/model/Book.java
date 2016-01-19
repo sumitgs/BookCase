@@ -1,14 +1,22 @@
 package com.example.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.io.Serializable;
 
 /**
  * Created by sumit.suthar on 19/1/16.
  */
-public class Book {
+@Document
+public class Book implements Serializable{
     private String bookName, author, type;
     @Id
     private long id;
+
+    public Book() {
+
+    }
 
     public String getBookName() {
         return bookName;

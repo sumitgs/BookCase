@@ -22,9 +22,7 @@ public class InMemoryBookRepository implements BookRepository {
         book.setId(id);
 
         this.books.put(id, book);
-
-        System.out.println("book is created my lord");
-
+        
         return book;
     }
 
@@ -33,8 +31,6 @@ public class InMemoryBookRepository implements BookRepository {
         if(!this.books.containsKey(id)) {
             return null;
         }
-
-        System.out.println("woo hoo i am here");
 
         return this.books.get(id);
     }

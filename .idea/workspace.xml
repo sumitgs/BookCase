@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2a14648-d080-4789-b8f1-7ae3305a4619" name="Default" comment="" />
+    <list default="true" id="b2a14648-d080-4789-b8f1-7ae3305a4619" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_btf_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_jackson_coreutils_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_json_patch_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_msg_simple_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_1_3_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_2_4_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_2_4_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_19_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookCase.iml" afterPath="$PROJECT_DIR$/BookCase.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/model/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/InMemoryBookRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/InMemoryBookRepository.java" />
+    </list>
     <ignored path="BookCase.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,39 +57,40 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/Book.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InMemoryBookRepository.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InMemoryBookRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/InMemoryBookRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.37815127">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#982#988#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#884#890#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,21 +108,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42542017">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#577#578#0" expanded="true" />
                 <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
                 <element signature="e#933#934#0" expanded="true" />
                 <element signature="e#1440#1441#0" expanded="true" />
                 <element signature="e#1496#1497#0" expanded="true" />
                 <element signature="e#1699#1700#0" expanded="true" />
                 <element signature="e#1745#1746#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BooksRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/BooksRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.471698">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,6 +170,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -127,9 +183,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/example/repository/GameRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/repository/BookRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/InMemoryBookRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/model/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/web/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/BookInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/DataBookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/model/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/DataBookRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/BooksController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/BooksRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/InMemoryBookRepository.java" />
       </list>
     </option>
   </component>
@@ -158,7 +220,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -225,6 +287,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,6 +377,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -748,12 +844,12 @@
       <created>1453187357118</created>
       <option name="number" value="Default" />
       <updated>1453187357118</updated>
-      <workItem from="1453187358954" duration="8397000" />
+      <workItem from="1453187358954" duration="13182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8397000" />
+    <option name="totallyTimeSpent" value="13182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -793,23 +889,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state vertical-scroll-proportion="-10.471698">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/InMemoryBookRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#982#988#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1699#1700#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,44 +967,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/BooksRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/BookController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/InMemoryBookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42542017">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.37815127">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#884#890#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
           </folding>
         </state>
       </provider>
