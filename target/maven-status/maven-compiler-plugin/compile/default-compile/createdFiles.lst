@@ -1,0 +1,5 @@
+com/example/repository/BookRepository.class
+com/example/repository/InMemoryBookRepository.class
+com/example/model/Book.class
+com/example/DemoApplication.class
+com/example/web/BookController.class
