@@ -1,19 +1,22 @@
 package com.example.repository;
 
 import com.example.model.Book;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.repository.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Created by sumit.suthar on 19/1/16.
- */
-public interface BookRepository {
-    Book create(Book book);
+     */
 
-    Book retrieve(Long id);
+public interface BookRepository  {
 
-    void remove(Long id);
-
-    ArrayList<Book> retrieveAll();
+    public Book create(Book book);
+    public Book retrieve(Long id);
+    public void remove(Long id);
+    public List<Book> retrieveAll();
 }

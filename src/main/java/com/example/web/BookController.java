@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by sumit.suthar on 19/1/16.
@@ -39,7 +40,7 @@ public class BookController  {
 
     @RequestMapping(method = RequestMethod.GET, value="/showAll", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.OK)
-    ArrayList<Book> allBooks() {
+    List<Book> allBooks() {
         return this.bookRepository.retrieveAll();
     }
 
