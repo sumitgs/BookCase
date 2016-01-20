@@ -52,14 +52,9 @@ public class BookController  {
 
     @RequestMapping(method=RequestMethod.PUT, value="updateBook/{id}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.OK)
-    public Book update(@PathVariable Long id, @RequestBody Book book) {
+    public Book updateBook(@PathVariable Long id, @RequestBody Book book) {
 
-        Book oldBook = this.bookRepository.retrieve(id);
+        return bookRepository.updateBook(book, id);
 
-        oldBook.setAuthor(book.getAuthor());
-        oldBook.setBookName(book.getBookName());
-        oldBook.setType(book.getType());
-
-        return oldBook;
     }
 }

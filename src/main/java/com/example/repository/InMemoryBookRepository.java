@@ -3,6 +3,9 @@ package com.example.repository;
 import com.example.model.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Component;
 import static org.springframework.data.mongodb.core.query.Criteria.where;
@@ -71,6 +74,14 @@ public class InMemoryBookRepository implements BookRepository {
     @Override
     public void remove(Long id) {
         mongoTemplate.remove(query(where("id").is(id)), Book.class);
+    }
+
+    public Book updateBook(Book book, Long id) {
+        Query query = new Query(Criteria.where("id").is(id));
+        Update update = new Update().set("bookName", book.getBookName()).set("author", book.getAuthor()).set("type", book.getType());
+        Book b = mongoTemplate.findAndModify(query, update, Book.class);
+
+        return b;
     }
 
 

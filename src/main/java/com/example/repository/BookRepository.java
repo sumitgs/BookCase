@@ -19,4 +19,5 @@ public interface BookRepository  {
     public Book retrieve(Long id);
     public void remove(Long id);
     public List<Book> retrieveAll();
+    public Book updateBook(Book book, Long id);
 }
