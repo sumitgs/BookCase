@@ -56,8 +56,8 @@ public class InMemoryBookRepository implements BookRepository {
 //            return null;
 //        }
 
-        Book b = mongoTemplate.findOne(query(where("id").is(id)), Book.class);
-        return b;
+        return mongoTemplate.findOne(query(where("id").is(id)), Book.class);
+
     }
 
     @Override
@@ -66,8 +66,8 @@ public class InMemoryBookRepository implements BookRepository {
 //            return null;
 //        }
 
-        List<Book> b = mongoTemplate.findAll(Book.class);
-        return b;
+        return mongoTemplate.findAll(Book.class);
+
     }
 
 
@@ -79,9 +79,8 @@ public class InMemoryBookRepository implements BookRepository {
     public Book updateBook(Book book, Long id) {
         Query query = new Query(Criteria.where("id").is(id));
         Update update = new Update().set("bookName", book.getBookName()).set("author", book.getAuthor()).set("type", book.getType());
-        Book b = mongoTemplate.findAndModify(query, update, Book.class);
+        return mongoTemplate.findAndModify(query, update, Book.class);
 
-        return b;
     }
 
 
